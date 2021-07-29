@@ -1,5 +1,9 @@
 body {
-    background-color: tomato;
+    background-image: url(gradienta-m_7p45JfXQo-unsplash.jpg);
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 form {
     

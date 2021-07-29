@@ -1,0 +1,122 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-image: url('cdc-VRpjDw3WqqI-unsplash.jpg');
+    background-color: white;
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+head {
+    color: black;
+}
+nav {
+    display: flex;
+    width: 50%;
+    margin-left: auto;
+}
+nav ul{
+    display: flex;
+    justify-content: space-around;
+}
+nav li {
+    list-style-type: none;
+    display: flex;
+    color: black;
+}
+.nav1 {
+    float: right;
+}
+.nav1 {
+    float: left;
+}
+form {
+    background-color: rgba(0, 0, 0, 0.810);
+    float: right;
+    max-width: 500px;
+}
+form h2 {
+    padding: 10px 40px 0px 40px;
+}
+form p {
+    padding: 0px 40px 0px 40px;
+    font-size: 12px;
+}
+input {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin: 10px 10px 10px 35px;
+    padding: 10px 20px 10px 20px;
+    box-sizing: border-box;
+    width: 350px;
+}
+input[type=submit] {
+    background-color: rgb(140, 255, 25);
+    color: white;
+    font-size: 14px;
+}
+footer {
+    display: flex;
+    margin-top: 30%;
+    padding: 50px;
+    justify-content: space-around;
+    background-color: white;
+}
+footer p {
+    font-weight: bold;
+    color: black;
+    font-size: 12px;
+    text-align: bottom;
+}
+.one {
+    background-image: url(download.jpg);
+    background-position: left;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 20px;
+}
+.two {
+    background-image: url(calendar.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 20px;
+}
+.three {
+    background-image: url(dollar.jpg);
+    background-position: right;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 20px;
+}
+div.footer2 {
+    color: black;
+    position: absolute;
+    margin-top: 100px;
+    padding: 50px;
+    justify-content: space-around;
+    background-color: white;
+    width: 100%;
+}
+div.p {
+    text-align: center;
+    font-weight: bold;
+}
+.circle1 {
+    border-radius: 100px 100px 100px 100px;
+    background-color: red;
+    float: left;
+    padding: 30px;
+    margin-left: 200px;
+}
+.circle2 {
+    border-radius: 100px 100px 100px 100px;
+    background-color: blue;
+    float: right;
+    padding: 30px;
+    margin-right: 200px;
+}
+.footerborder {
+    border: 2px solid grey;
+    position: fixed;
+    background-color: grey;
+}
